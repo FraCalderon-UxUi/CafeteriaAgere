@@ -1,0 +1,13 @@
+.link {
+  color: $quick-silver;
+  cursor: pointer;
+  font-family: $secondary-font;
+  font-size: $font-size-large;
+  font-weight: $secondary-font-weight;
+  text-decoration: none;
+
+  &:hover {
+    color: $outer-space;
+  }
+}
+

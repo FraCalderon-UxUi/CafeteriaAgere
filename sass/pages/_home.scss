@@ -1,0 +1,207 @@
+.navbar {
+  box-sizing: border-box;
+  padding: 20px 50px;
+  width: 100%;
+
+  &__item {
+    display: inline-block;
+    margin: 0 30px 0 0;
+    vertical-align: middle;
+  }
+
+  &__brand {
+    height: 41px;
+    padding: 0 40px 0 0;
+    width: auto;
+  }
+
+  &__to-right {
+    float: right;
+  }
+
+  &__item-to-right {
+    display: inline-block;
+    margin: 0 0 0 30px;
+    vertical-align: middle;
+  }
+}
+
+.header {
+  width: 100%;
+
+  &__banner,
+  &__brand {
+    float: left;
+    height: 480px;
+    position: relative;
+    z-index: 0;
+  }
+
+  &__banner {
+    background-color: #808080;
+    background-image: url('./images/img-1.png');
+    background-size: cover;
+    display: inline-block;
+    width: 70%;
+  }
+
+  &__facts {
+    background-color: $white;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 150px;
+    min-width: 450px;
+    padding: 0 15px 0 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 55%;
+    z-index: 1;
+  }
+
+  &__fact {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 160px;
+    padding: 30px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  &__data {
+    font-family: $secondary-font;
+    font-size: $font-size-xx-large;
+    font-weight: $secondary-font-weight;
+    line-height: 1.5;
+  }
+
+  &__description {
+    font-family: $primary-font;
+    font-size: $font-size-medium;
+    font-weight: $primary-font-weight;
+  }
+
+  &__brand {
+    text-align: center;
+    width: 30%;
+  }
+
+  &__brand-name {
+    display: inline-block;
+    font-family: $primary-font;
+    font-weight: $primary-font-weight;
+    padding: 50px 0 0;
+    text-align: left;
+  }
+
+  &__title {
+    font-size: $font-size-xxx-large;
+  }
+
+  &__subtitle {
+    display: block;
+    font-size: $font-size-large;
+    margin: 10px 0 0;
+  }
+
+  &__arrow,
+  &__arrow-icon {
+    height: 150px;
+    position: absolute;
+    width: 150px;
+  }
+
+  &__arrow {
+    background-color: $coral;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  &__arrow-icon {
+    background-color: $flame;
+    bottom: 20px;
+    left: -15px;
+    z-index: 2;
+  }
+}
+
+.contact-us {
+  width: 100%;
+
+  &__info,
+  &__featured-image {
+    float: left;
+    height: 300px;
+    position: relative;
+    z-index: 0;
+  }
+
+  &__info {
+    width: 70%;
+  }
+
+  &__featured-text,
+  &__find-us {
+    float: right;
+    height: 100%;
+  }
+
+  &__featured-text {
+    box-sizing: border-box;
+    font-family: $primary-font;
+    font-weight: $primary-font-weight;
+    padding: 55px;
+    width: 45%;
+  }
+
+  &__title {
+    font-size: $font-size-xx-large;
+  }
+
+  &__subtitle {
+    font-size: $font-size-medium;
+    padding: 16px 80px 0 0;
+  }
+
+  &__find-us {
+    background-color: $blue-de-france;
+    height: 90%;
+    min-width: 450px;
+    position: relative;
+    width: 55%;
+  }
+
+  &__map {
+    background-color: #808080;
+    background-image: url('./images/img-4.png');
+    background-position: center;
+    background-size: cover;
+    bottom: -5px;
+    height: 90%;
+    left: -35px;
+    position: absolute;
+    width: 85%;
+  }
+
+  &__featured-image {
+    background-color: #808080;
+    background-image: url('./images/img-2.png');
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+  }
+
+  &__coffee {
+    background-color: #808080;
+    background-image: url('./images/img-3.png');
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    left: -60px;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    z-index: 1;
+  }
+}

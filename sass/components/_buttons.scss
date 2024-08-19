@@ -1,0 +1,31 @@
+.button {
+  border-style: solid;
+  border-width: 2px;
+  color: $quick-silver;
+  cursor: pointer;
+  font-family: $secondary-font;
+  font-size: $font-size-large;
+  font-weight: $secondary-font-weight;
+  padding: 10px;
+
+  &--primary {
+    border-color: $quick-silver;
+
+    &:hover {
+      border-color: $outer-space;
+      color: $outer-space;
+    }
+  }
+
+  &--secondary {
+    background-color: $shiny-shamrock;
+    border-color: $shiny-shamrock;
+    color: $isabelline;
+
+    &:hover {
+      background-color: $turquoise-green;
+      border-color: $turquoise-green;
+      color: $outer-space;
+    }
+  }
+}
